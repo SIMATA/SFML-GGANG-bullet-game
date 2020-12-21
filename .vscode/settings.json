@@ -1,0 +1,14 @@
+{
+  // Code Runner "C/C++" 설정
+  "code-runner.executorMap": {
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+
+  // Window 10 에서는 Default Shell 이 Powershell이기 때문에 cmd로 변경해야 정상적으로 실행 됨.
+  "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
+
+  // 터미널 입력 (출력 사용시 주석 처리)
+  "code-runner.runInTerminal": true,
+  "editor.formatOnSave": true
+}
